@@ -1,0 +1,28 @@
+/*
+    Theme Name: wp-test
+    Theme URI: 
+    Description: Hello this is My Theme Version 5.0
+    Version: 5.0
+    Author: Akash Patel
+    Author URI: 
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* -- Basic Style -- */
+footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+#wpcf7-f16-o1 textarea.form-control{
+    max-height: 182px;
+}
+#content{
+    padding: 10em 0 6em 0;
+}
+body:not(.home) .site-navbar {
+    background: gray;
+}
+.message{
+    margin-left:15px;
+}
